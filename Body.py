@@ -1,4 +1,5 @@
-class Body:
+from visual import *
+class Body(sphere):
     def _init_ (self, mass, charge, position, velocity):
         self.mass = mass
         self.charge = charge

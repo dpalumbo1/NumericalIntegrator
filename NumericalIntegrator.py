@@ -5,6 +5,8 @@ bodies = []
 G = 6.67e-11
 k = 8.96e9
 dt = .5
+
+
 def setdt(timeStep):
     dt = timeStep
 def addBody (body):
