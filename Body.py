@@ -4,6 +4,7 @@ class Body:
         self.charge = charge
         self.position = position
         self.velocity = velocity
-    def accelerate (self, acceleration, dt):
-        self.velocity += acceleration * dt
+    def accelerate (self, force, dt):
+        self.velocity += acceleration / self.mass * dt
         self.position += velocity * dt
+        
